@@ -44,6 +44,7 @@ public class MyGridAdapter extends BaseAdapter {
         tvlang.setText(langModelArrayList.get(i).getStrLang());
         imgLang.setImageResource(langModelArrayList.get(i).getImgLang());
 
+
         return view;
     }
 }
