@@ -29,4 +29,5 @@ public class DashboardActivity extends AppCompatActivity {
         MyGridAdapter myGridAdapter = new MyGridAdapter(this, langModelArrayList);
         gridView.setAdapter(myGridAdapter);
     }
+
 }

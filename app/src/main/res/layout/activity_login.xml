@@ -117,7 +117,7 @@
             android:layout_marginBottom="20dp"
             android:layout_toRightOf="@id/acc"
             android:text="Register"
-            android:textColor="#FF5722"
+            android:textColor="#FF7043"
             android:textSize="20sp"
             android:textStyle="bold" />
     </RelativeLayout>
