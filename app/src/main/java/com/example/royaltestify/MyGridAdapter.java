@@ -42,7 +42,7 @@ public class MyGridAdapter extends BaseAdapter {
         TextView tvlang = view.findViewById(R.id.tv_lang);
         ImageView imgLang = view.findViewById(R.id.img_lang);
         tvlang.setText(langModelArrayList.get(i).getStrLang());
-        imgLang.setImageResource(langModelArrayList.get(i).getImgLang());
+        imgLang.setImageResource((langModelArrayList.get(i).getImgLang()));
 
 
         return view;
